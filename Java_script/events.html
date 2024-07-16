@@ -1,0 +1,19 @@
+<html>
+    <head></head>
+    <script>
+        function fun(event){
+            console.log(event.target.value)
+        }   
+     </script>
+    <body>
+        <button onclick="alert('You cliked me')">Click mee</button><br><br>
+        <button onmouseenter="alert('you enterd the mouse into the button')">Enter me</button><br><br>
+        <button onmouseleave="alert('you leaved the mouse')">Leave me</button><br><br>
+        <input type="text" onkeydown="alert('you pressed a key')"><br><br>
+        <input type="text" onkeyup="alert('You left the key')"><br><br>
+        <input type="text" value="default value" onchange="console.log(this.value)"><br><br>
+        <input type="text" value="default value" onchange="fun(event)">
+
+
+    </body>
+</html>

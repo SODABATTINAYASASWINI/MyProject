@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="forms_task2.css">
+        <script src="forms_task2.js"></script>
+    </head>
+    <body>
+        <div class="parent">
+            <label><b class="n1">First name:</b></label>
+            <input type="text" value="" onchange="firstname(event)"><br><br>
+            <label><b class="n1">Lastname:</b></label>
+            <input type="text" value="" onchange="lastname(event)"><br><br>
+            <!-- <label><b class="n1">Age:</b></label>
+            <input type="text" value=""><br><br> -->
+            <label><b  class="n1">Date of birth and age:</b></label>
+            <input type="date" value="" onchange="dateofbirth(event)"><br><br>
+            <label><b  class="n1">Fahtername:</b></label>
+            <input type="text" value=""><br><br>
+            <label><b class="n1">Mothername:</b></label>
+            <input type="text" value=""><br><br>
+            <label><b class="n1">Address</b></label>
+            <textarea name="" id=""></textarea><br><br>
+            <label><b class="n1">Gender:</b></label>
+            <label class="n1">Male</label>
+            <input type="radio" name="g1">
+            <label class="n1">Female</label>
+            <input type="radio" name="g1"><br><br>
+            <label><b class="n1">Certifications:</b></label>
+            <textarea name="" id=""></textarea><br><br>
+            <label><b class="n1">Academic Details:</b></label>
+            <table border="1">
+                <th>NAME OF THE INSTITUTION</th>
+                <th>YEAR OF PASSING</th>
+                <th>PERSENTAGE</th>
+                <th>PLACE</th>
+                <tr>
+                    <td class="n1">SSC</td>
+                    <td><input type="text" class="noborder"></td>
+                    <td><input type="text" class="noborder"></td>
+                    <td><input type="text" class="noborder"></td>
+                    
+                </tr>
+                <tr>
+                    <td class="n1">Inter</td>
+                    <td><input type="text" class="noborder"></td>
+                    <td><input type="text" class="noborder"></td>
+                    <td><input type="text" class="noborder"></td>
+                </tr>
+                <tr>
+                    <td class="n1">BTech</td>
+                    <td><input type="text" class="noborder"></td>
+                    <td><input type="text" class="noborder"></td>
+                    <td><input type="text" class="noborder"></td>
+                </tr>
+            </table><br><br>
+            <label><b class="n1">Skills</b></label>
+            <textarea></textarea><br><br>
+            <label><b class="n1">Hobbies</b></label>
+            <ul>
+                <li><input type="text" class="noborder"></li>
+                <li><input type="text" class="noborder"></li>
+                <li><input type="text" class="noborder"></li>
+                <li><input type="text" class="noborder"></li>
+            </ul>
+            <label><b class="n1">Profile Pic:</b></label>
+            <input type="file" name="" id=""><br><br>
+            <button onclick="dataprinting(event)">Submit</button>
+            <input type="reset" name="" id="">
+        </div>
+    </body>
+</html>

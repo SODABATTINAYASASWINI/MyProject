@@ -1,0 +1,17 @@
+@font-face {
+    font-family:hanuma ;
+    src: url("./Playwrite_US_Trad/PlaywriteUSTrad-VariableFont_wght.ttf");
+}
+.parent{
+    height: 100svh;
+    width: 500px;
+
+    background-color: aquamarine;
+    background-image: url("./invc.jpeg");
+    background-size: 100% 100%;
+}
+.a{
+    font-family: hanuma;
+    font-size: 20px;
+    padding-top: 100px;
+}

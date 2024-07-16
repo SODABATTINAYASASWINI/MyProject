@@ -1,0 +1,295 @@
+.grids_parent{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.grid1_parent{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: blueviolet;
+    /* flex-wrap: wrap; */
+}
+.grid2_parent{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(13, 211, 171);
+    /* flex-wrap: wrap; */
+}
+.grid1{
+    position:relative;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    color: #666666;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid1 a{
+    color: #666666;
+}
+.grid2{
+    position:relative;
+    width: 30%;
+    display: flex;
+    color: #666666;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid2 a{
+    color: #666666;
+}
+.grid3{
+    position:relative;
+    width: 30%;
+    display: flex;
+    color: #666666;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid3 a{
+    color: #666666;
+}
+.grid4{
+    position:relative;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid4 a{
+    color: #666666;
+}
+.grid5{
+    position:relative;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+.grid5 a{
+    color: #666666;
+}
+.grid6{
+    position:relative;
+    width: 30%;
+    display: flex;
+    color: #666666;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+    /* margin-left: 30px; */
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.grid6 a{
+    color: #666666;
+}
+/* ---------------------------ATER AND BEFORE CLASSES---------------------------------------- */
+.grid1::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid1:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid1:hover{
+    color: white;
+    z-index: 99;
+    transition-duration: 2s;
+}
+.grid1:hover a{
+    color: white;
+}
+/* ----------------------------------------------------------------------------------- */
+.grid2::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid2:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid2:hover{
+    color: white;
+    z-index: 9999;
+    transition-duration: 2s;
+}
+.grid2:hover a{
+    color: white;
+    
+}
+/* ------------------------------------------------------------------------------ */
+.grid3::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid3:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid3:hover{
+    color: white;
+    z-index: 9999;
+    transition-duration: 2s;
+}
+.grid3:hover a{
+    color: white;
+}
+/* ---------------------------------------------------------------------- */
+.grid4::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid4:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid4:hover{
+    color: white;
+    z-index: 9999;
+    transition-duration: 2s;
+}
+.grid4:hover a{
+    color: white;
+}
+/* ------------------------------------------------------------------------- */
+.grid5::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid5:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid5:hover{
+    color: white;
+    z-index: 9999;
+    transition-duration: 2s;
+}
+.grid5:hover a{
+    color: white;
+}
+/* --------------------------------------------------------------------------- */
+.grid6::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #313789;
+    top: 0;
+    left: -280px;
+    position: absolute;
+    transition-duration: 2s;
+}
+.grid6:hover::after{
+    left: 0px;
+    top: 0px;
+    z-index: -99;
+}
+.grid6:hover{
+    transition-duration: 2s;
+    color: white;
+    z-index: 9999;
+}
+.grid6:hover a{
+    color: white;
+}

@@ -1,0 +1,63 @@
+body{
+    background-color: grey;
+}
+.mode{
+    margin-top: 100px;
+    height: 100px;
+    width: 200px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    background-image: url("https://wallpapercave.com/wp/wp3057848.jpg");
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.sun{
+   height: 80%;
+    width: 30%;
+    background-color: orangered;
+    /* background-image:url("http://pluspng.com/img-png/sun-png-bright-sun-2249.png"); */
+    background-size: 100% 100%;
+    border-radius: 100%;
+    margin-left: 5px;
+    left: 0;
+    float: left;
+    transition: all 1s;
+    position: absolute;
+    z-index: 99999;
+}
+.sun::before{
+    position: absoute;
+    height: 100%;
+    width: 100%;
+    left: 120px;
+    background-color: aliceblue;
+}
+.mode::after{
+    content: " ";
+    position: absolute;
+    top: -120px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/005/255/101/original/night-starry-skies-with-white-blinking-stars-free-video.jpg");
+    background-size: 100% 100%;
+    border-radius: 30px;
+    transition: all 2s;
+} 
+ .sun:hover{
+    transform: translate(120px);
+    background: linear-gradient(white
+    
+    ,snow);
+    background-size: 100% 100%;
+}
+.mode:hover::after {
+   top: 0%;
+   left: 0%;
+   z-index: 999;
+} 
+
+

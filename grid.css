@@ -1,0 +1,21 @@
+.parent{
+    width: 100%;
+    height: 100svh;
+    border: 3px slid salmon;
+    background-color: azure;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.a{
+    height: 250px;
+    width: 150px;
+    border: 3px solid sandybrown;
+    background-color: black;
+    color: azure;
+    size: 30px;
+}
+#red{
+    justify-self: flex-start; /*represents coloumns*/
+    align-self: center; /*represents rows*/
+}

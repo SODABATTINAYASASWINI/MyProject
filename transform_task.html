@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="transform_task.css">
+    </head>
+    <body>
+        <button onclick="showitems('options')">=</button>
+        <div class="options">
+            <div class="opt">home</div>
+            <div class="opt">about</div>
+            <div class="opt">contact</div>
+            <div class="opt">support</div>
+        </div>
+        <script>
+            function showitems(data){
+                var x = document.getElementsByClassName(data)[0]
+                x.style.width = "200px"
+                // x.style.display = "block";
+            }
+        </script>
+    </body>
+</html>

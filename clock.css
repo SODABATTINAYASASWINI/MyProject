@@ -1,0 +1,252 @@
+.parent {
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: cornflowerblue;
+}
+.clock {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(12, 12, 11);
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.red{
+    height: 250px;
+    width: 250px;
+    /* background-color: rgb(12, 12, 11); */
+    /* border: 5px solid rgb(30, 163, 72); */
+    border-radius: 100%;
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+ .a1{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    left: 55px;
+    top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a2{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    left: 13px;
+    top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a3{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    left: 5px;
+    top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a4{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a5{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    left: 60px;
+    top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a6{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    left: 128px;
+    top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a7{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    right: 60px;
+    top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a8{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    right: 20px;
+    top: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a9{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    right: 5px;
+    top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a10{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    right: 13px;
+    top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a11{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    right: 55px;
+    top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a12{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    border-radius: 100%;
+    position: absolute;
+    right: 128px;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1{
+    color: azure;
+    font-size: 25px;
+}
+.center{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: white;
+    top: 140px;
+    left: 140px;
+}
+.c1{
+    height: 120px;
+    width: 5%;
+    background-color: #FFFF;
+    /* border: 1px solid yellowgreen; */
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    animation-name: my_sec;
+    animation-duration: 60s;
+    transform-origin: 50% 0%;
+    animation-iteration-count: infinite;
+}
+.c2{
+    height: 100px;
+    width: 5px;
+    background-color: #FFFF;
+    /* border: 1px solid cornflowerblue; */
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    animation-name: my_min;
+    animation-duration: 3600s;
+    transform-origin: 50% 0%;
+    animation-iteration-count: infinite;
+}
+.c3{
+    height: 80px;
+    width: 5px;
+    /* background-color: white; */
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    /* border: 1px solid red; */
+    background-color: #FFFF;
+    animation-name: my_hrs;
+    animation-duration: 8640000s;
+    transform-origin: 50% 0%;
+    animation-iteration-count: infinite;
+}
+@keyframes my_sec{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes my_min{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes my_hrs{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

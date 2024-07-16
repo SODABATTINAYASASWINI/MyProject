@@ -1,0 +1,61 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent2{
+    height: 350px;
+    width: 350px;
+    background-color: salmon;
+    perspective: 50px;
+    position: relative;
+}
+.p1{
+    height: 100px;
+    width: 350px;
+    top: -80px;
+    position: absolute;
+    background-color: blue;
+    transform-style: preserve-3d;
+    transform: rotateX(90deg);
+    /* transform-origin: top left;  */
+}
+.p2{
+    height: 200px;
+    width: 300px;
+    background-color: bisque;
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 72px;
+    left: 85px;
+    transform-style: preserve-3d;
+    transform: rotateY(-80deg);
+    transform-origin: bottom left;
+    z-index: -1;
+       
+}
+.p3{
+    height: 100px;
+    width: 350px;
+    position: absolute;
+    top: 300px;
+    background: linear-gradient(black,red);
+    transform-style: preserve-3d;
+    transform: rotateX(90deg);
+    /* transform-origin: top left;  */
+}
+    
+.p4{
+    height: 190px;
+    width: 300px;
+    background-color: rgb(6, 4, 0);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 72px;
+    left: 250px;
+    transform-style: preserve-3d;
+    transform: rotateY(-80deg);
+    transform-origin: bottom left;
+} 

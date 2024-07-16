@@ -1,0 +1,118 @@
+.stars{
+    height: 300px;
+    width: 1500px;
+    background-color: rgb(238, 49, 49);
+}
+.parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.house{
+    height: 460px;
+    width: 700px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+}
+.tree{
+    height: 460px;
+    width: 700px;
+    float: left;
+    position: relative;
+}
+.roof{
+    height: 100px;
+    width: 600px;
+    background-color:darkgoldenrod;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+.home{
+    height: 310px;
+    width: 450px;
+    background-color: burlywood;
+    margin-left: 100px;
+    position: relative;
+}
+.door{
+    height: 280px;
+    width: 180px;
+    background-color: palevioletred;
+    position: absolute;
+    top: 30px;
+    margin-left: 60px;
+    float: left;
+}
+.window{
+    height: 120px;
+    width: 120px;
+    background-color: blue;
+    margin-left: 280px;
+    position: absolute;
+    top: 50px;
+}
+.t1{
+    height: 200px;
+    width: 130px;
+    background-color: green;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom:2px solid black;
+    margin-left: 50px;
+    position: absolute;
+    left: 300px;
+    top: 30px;
+}
+.t2{
+    height: 130px;
+    width: 130px;
+    background-color: green;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    left: 300px;
+    top: 90px;
+}
+.t3{
+    height: 130px;
+    width: 130px;
+    background-color: green;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    left: 400px;
+    top: 90px;
+}
+.t4{
+    height: 268px;
+    width: 50px;
+    position: absolute;
+    background-color: chocolate;
+    left: 390px;
+    top: 190px;
+
+}
+
+.a{
+    height: 100%;
+    width: 97px;
+    border-top: 2px solid azure;
+    border-radius: 100%;
+    float:left;
+}
+.b{
+    height: 100%;
+    width: 97px;
+    
+    border-bottom: 2px solid azure;
+    border-radius: 100%;
+    float:left;
+}
